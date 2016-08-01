@@ -2,6 +2,12 @@ unpack is an opinionated unpacker
 
 # what is it
 
+I was annoyed when downloading compressed files from the internets that when extracting them, some of them have everything packed nicely within an dedicated subfolder while others not.
+
+So to have my hard-disk clean, I have to look into every archive before unpacking it in order so see, if I must create a dedicated folder for it.
+
+So this is a simple tool that does the job, i.e. makes it so that I always have a dedicated folder for a decompressed archive.
+
 It acts relative to the current working directory as follows:
 
 1. creates a subdirectory with the name of the archive file - its extension.
@@ -17,6 +23,7 @@ It is just a wrapper around certain uncompressing commands that are executed in 
 
 Here is a table of the supported file extensions and the expected commands.
 
+```
 -----------------------------
 file ending | expected command inside the path
 -----------------------------
@@ -26,6 +33,7 @@ gz          | gzip
 7z          | 7z
 zip         | unzip
 rar         | unrar
+```
 
 
 # install 
