@@ -35,8 +35,8 @@ Here is a table of the supported file extensions and the expected commands.
 file ending | expected command inside the path
 -----------------------------
 tar         | tar
-tgz         | tar, gunzip
-gz          | gunzip
+tgz         | tar, gzip
+gz          | gzip
 7z          | 7z
 zip         | unzip
 rar         | unrar
